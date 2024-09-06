@@ -43,7 +43,7 @@ header-includes:
 :::
 ::: {.column width="30%"}
 
-![](./image/nzita)
+![](./image/nzita.png)
 
 :::
 ::::::::::::::
