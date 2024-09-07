@@ -1,14 +1,13 @@
 ---
 ## Front matter
 lang: ru-RU
-title: "Основы инфорционной безопасности. Лабораторная работа №1" 
-subtitle: Установка и конфигурация
-операционной системы на виртуальную машину
-
-author: Нзита Диатезилуа Катенди
-	
-institute: Российский Университет дружбы народов
-date: 06.09.2024
+title: Установка и конфигурация операционной системы на виртуальную машину
+subtitle: Лабораторная работа № 1
+author:
+  - Нзита Диатезилуа Катенди
+institute:
+  - Российский университет дружбы народов, Москва, Россия
+date: 7 сентября 2024 г.
 
 ## i18n babel
 babel-lang: russian
@@ -23,9 +22,6 @@ section-titles: true
 theme: metropolis
 header-includes:
  - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
- - '\makeatletter'
- - '\beamer@ignorenonframefalse'
- - '\makeatother'
 ---
 
 # Информация
@@ -36,14 +32,10 @@ header-includes:
 ::: {.column width="70%"}
 
   * Нзита Диатезилуа Катенди
-  * студент группы НКНбд-01-21
+  * студент
   * Российский университет дружбы народов
-  * https://github.com/NzitaKatendi/study_2024-2025_InfoSec
-
-:::
-::: {.column width="30%"}
-
-![](./image/nzita.jpg)
+  * [1032215220@pfur.ru](mailto:1032215220@pfur.ru)
+  * <https://github.com/NzitaKatendi>
 
 :::
 ::::::::::::::
