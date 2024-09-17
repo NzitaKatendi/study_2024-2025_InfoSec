@@ -1,0 +1,164 @@
+<section>
+<section id="информация" class="title-slide slide level1">
+<h1>Информация</h1>
+
+</section>
+<section id="докладчик" class="slide level2">
+<h2>Докладчик</h2>
+<div class="columns" data-align="center">
+<div class="column" style="width:70%;">
+<ul>
+<li>Нзита Диатезилуа Катенди</li>
+<li>студент</li>
+<li>Российский университет дружбы народов</li>
+<li><a href="mailto:1032215220@pfur.ru">1032215220@pfur.ru</a></li>
+<li><a href="https://github.com/NzitaKatendi"
+class="uri">https://github.com/NzitaKatendi</a></li>
+</ul>
+</div>
+</div>
+</section></section>
+<section>
+<section id="вводная-часть" class="title-slide slide level1">
+<h1>Вводная часть</h1>
+
+</section>
+<section id="цели-и-задачи" class="slide level2">
+<h2>Цели и задачи</h2>
+<p><strong>Целью</strong> данной работы является прибретенеие
+практических навыков работы в консоли с атрибутами файлов для групп
+пользователей.</p>
+<p><strong>Задачи:</strong></p>
+<ul>
+<li>Изучение команд для просмотра и изменения прав доступа</li>
+<li>Составление таблицы с соответствием прав и разрешенных действий</li>
+</ul>
+<p><strong>Инструмент</strong> VirtualBox, bash</p>
+</section></section>
+<section>
+<section id="выполнение-лабораторной-работы"
+class="title-slide slide level1">
+<h1>Выполнение лабораторной работы</h1>
+
+</section>
+<section id="создание-нового-пользователся-guest2" class="slide level2">
+<h2>Создание нового пользователся guest2</h2>
+<figure id="fig:001">
+<img data-src="image/1.png" style="width:70.0%"
+alt="Создание нового пользователся guest2 и добавление его в гпуппу guest" />
+<figcaption aria-hidden="true">Создание нового пользователся guest2 и
+добавление его в гпуппу guest</figcaption>
+</figure>
+</section>
+<section id="просмотр-информации-о-группах-пользователя"
+class="slide level2">
+<h2>Просмотр информации о группах пользователя</h2>
+<figure id="fig:002">
+<img data-src="image/2.png" style="width:70.0%"
+alt="Просмотр информации о группах пользоватей" />
+<figcaption aria-hidden="true">Просмотр информации о группах
+пользоватей</figcaption>
+</figure>
+</section>
+<section id="просмотр-информации-о-группах-пользователя-1"
+class="slide level2">
+<h2>Просмотр информации о группах пользователя</h2>
+<figure id="fig:003">
+<img data-src="image/3.png" style="width:70.0%"
+alt="Просмотр информации о группах пользователей в файле /etc/group" />
+<figcaption aria-hidden="true">Просмотр информации о группах
+пользователей в файле <code>/etc/group</code></figcaption>
+</figure>
+</section>
+<section id="изменение-прав-доступа" class="slide level2">
+<h2>Изменение прав доступа</h2>
+<figure id="fig:004">
+<img data-src="image/4.png" style="width:70.0%"
+alt="Изменение прав доступа" />
+<figcaption aria-hidden="true">Изменение прав доступа</figcaption>
+</figure>
+</section>
+<section id="изменение-прав-доступа-1" class="slide level2">
+<h2>Изменение прав доступа</h2>
+<figure id="fig:005">
+<img data-src="image/5.png" style="width:70.0%"
+alt="Изменение прав доступа" />
+<figcaption aria-hidden="true">Изменение прав доступа</figcaption>
+</figure>
+</section>
+<section id="минимальные-права-для-совершения-операций"
+class="slide level2">
+<h2>Минимальные права для совершения операций</h2>
+<table>
+<caption>Минимальные права для совершения операций</caption>
+<colgroup>
+<col style="width: 45%" />
+<col style="width: 27%" />
+<col style="width: 27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Операция</th>
+<th>Минимальные права на директорию</th>
+<th>Минимальные права на файл</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Создание файла</td>
+<td>d(300)</td>
+<td>(000)</td>
+</tr>
+<tr class="even">
+<td>Удаление файла</td>
+<td>d(300)</td>
+<td>(000)</td>
+</tr>
+<tr class="odd">
+<td>Чтение файла</td>
+<td>d(100)</td>
+<td>(400)</td>
+</tr>
+<tr class="even">
+<td>Запись в файл</td>
+<td>d(100)</td>
+<td>(200)</td>
+</tr>
+<tr class="odd">
+<td>Переименование файла</td>
+<td>d(300)</td>
+<td>(000)</td>
+</tr>
+<tr class="even">
+<td>Создание поддиректории</td>
+<td>d(300)</td>
+<td>(000)</td>
+</tr>
+<tr class="odd">
+<td>Удаление поддиректории</td>
+<td>d(300)</td>
+<td>(000)</td>
+</tr>
+</tbody>
+</table>
+</section></section>
+<section>
+<section id="заключение" class="title-slide slide level1">
+<h1>Заключение</h1>
+
+</section>
+<section id="выводы" class="slide level2">
+<h2>Выводы</h2>
+<p>В результате выполнения работы были приобритены рактические навыки
+работы в консоли с атрибутами файлов для групп пользователей.</p>
+</section>
+<section id="список-литературы" class="slide level2">
+<h2>Список литературы</h2>
+<ol type="1">
+<li><p>Граннеман С. Linux. Карманный справочник. 2-е изд. Вильямс, 2019.
+464 с.</p></li>
+<li><p>Паралленые вычеслия в УрО РАН Параллельные вычисления в УрО РАН.
+Материалы к спецкурсу ОС (Unix) Inode и каталоги [Электронный ресурс].
+Red Hat, Inc., 2020. URL: https://parallel.uran.ru/node/382.</p></li>
+</ol>
+</section></section>
