@@ -1,12 +1,13 @@
 ---
 ## Front matter
 lang: ru-RU
-title:  Основы информационной безопасности. Лабораторная работа №7
+title: Основы информационной безопасности. Лабораторная работа № 7
 subtitle: Элементы криптографии. Однократное гаммирование
-author: |
-	Нзита Диатезилуа Катенди
-institute: Российский Университет дружбы народов
-date: 19.10.2024
+author:
+  - Нзита Диатезилуа Катенди
+institute:
+  - Российский университет дружбы народов, Москва, Россия
+date: 19 октября 2024 г.
 
 ## i18n babel
 babel-lang: russian
@@ -21,9 +22,6 @@ section-titles: true
 theme: metropolis
 header-includes:
  - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
- - '\makeatletter'
- - '\beamer@ignorenonframefalse'
- - '\makeatother'
 ---
 
 # Информация
@@ -33,15 +31,11 @@ header-includes:
 :::::::::::::: {.columns align=center}
 ::: {.column width="70%"}
 
-  * ДНзита Диатезилуа Катенди
-  * студент группы НКНбд-01-21
+  * Нзита Диатезилуа Катенди
+  * студент
   * Российский университет дружбы народов
+  * [1032215220@pfur.ru](mailto:1032215220@pfur.ru)
   * <https://github.com/NzitaKatendi>
-
-:::
-::: {.column width="30%"}
-
-!
 
 :::
 ::::::::::::::
